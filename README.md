@@ -1,6 +1,6 @@
 # FollowerFinder
 
-A file sharing service created with [Spring Boot](https://spring.io/projects/spring-boot)
+A github follower finding sharing service created with [Spring Boot](https://spring.io/projects/spring-boot)
 ## Setup/Execution
 Make sure you have java jdk installed.
 This project uses Maven to handle dependencies. 
