@@ -7,7 +7,7 @@ This project uses Maven to handle dependencies.
 https://maven.apache.org/download.cgi
 (installation instructions https://maven.apache.org/install.html )
 (On windows, this may also involve adding a new environment variable on your system with the name JAVA_HOME, and a value that points to the installation of the java jdk. This will generally be similar to the following: C:\Program Files\Java\jdk1.8.0_171\ 
-Per the provided instructions from apache, you will also have to add the [installation directory]\bin\ directory to your Path environment variable.
+Per the provided instructions from apache, you will also have to add the [maven installation directory]\bin\ directory to your Path environment variable.
 )
 
 Navigate to the base directory of the project and open a command prompt there. Be sure you open this prompt after your modifications to the environment variables. 
