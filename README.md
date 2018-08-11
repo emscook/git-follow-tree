@@ -1,6 +1,8 @@
 # FollowerFinder
 
 A github follower finding sharing service created with [Spring Boot](https://spring.io/projects/spring-boot)
+The main logic can be found in the file git-follow-tree/src/main/java/com/follower/application/controller/UserController.java
+
 ## Setup/Execution
 Make sure you have java jdk installed.
 This project uses Maven to handle dependencies. 
@@ -36,3 +38,6 @@ Give the command around ten seconds to complete. You will receive a JSON Array o
 
 ## Testing
 This can be tested by running the query on users where the followers are small in number or known ahead of time, and comparing the ids against expected ids to be encountered.
+
+## Issues
+If you run into any problems running the application or setting it up, you can email me at emseduau@gmail.com
