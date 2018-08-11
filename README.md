@@ -13,6 +13,17 @@ Per the provided instructions from apache, you will also have to add the [maven 
 Navigate to the base directory of the project and open a command prompt there. Be sure you open this prompt after your modifications to the environment variables. 
 Now simply enter "mvn clean install"
 and then "mvn package"
+
+Note that to use this service you require the ID of a user. The user ID is distinct from the username. To obtain the ID of a given username, you can navigate to
+
+https://api.github.com/users/your_github_user_name
+The second entry should list the ID of a given username. For example
+https://api.github.com/users/emscook
+gives 
+login	"emscook"
+id	39387338
+...
+
 Now, you can navigate to the newly created "target" directory within the project folder, and run the mydrive-0.0.1-SNAPSHOT.jar .
 Allow the application internet access, and now the endpoint is accessible. It is running on port 8080.
 The endpoint can be queried through curl with the following command, simply replace the userid with the userid you'd like to query. 
